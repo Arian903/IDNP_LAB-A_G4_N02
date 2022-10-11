@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.i("Fecha Nacimiento", fechaNacimiento);
                 Log.i("Colegio Precedencia", colegioPrecedencia);
                 Log.i("Carrera", carrera);
+
             }
         });
     }
