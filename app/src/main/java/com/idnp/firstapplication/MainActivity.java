@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.i("Colegio Precedencia", colegioPrecedencia);
                 Log.i("Carrera", carrera);
 
+
             }
         });
     }
