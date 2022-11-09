@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostulanteInfoActivity"
+    android:background="@drawable/background_activity">
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="40dp"
+        android:text="Buscar"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/textColor"
+        android:background="@drawable/shape_button"
+        />
+
+    <TextView
+        android:id="@+id/txt2Dni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="20dp"
+        android:text="DNI:"
+        android:layout_below="@id/searchDNI"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/txt2Nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:text="Nombres:"
+        android:layout_below="@id/txt2Dni"
+        android:layout_marginTop="10dp"
+
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/txt2Apellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:text="Apellidos:"
+        android:layout_below="@id/txt2Nom"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/txt2FecN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:text="Fecha Nacimiento:"
+        android:layout_below="@id/txt2Apellidos"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/txt2Cole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_below="@id/txt2FecN"
+        android:layout_marginTop="10dp"
+        android:text="Colegio: "
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/txt2Car"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:text="Carrera"
+        android:layout_below="@id/txt2Cole"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/searchDNI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:hint="DNI"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="@color/textColor" />
+
+    <TextView
+        android:id="@+id/edt2DNI"
+        android:layout_width="159dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/txt2Dni"
+
+        />
+
+    <TextView
+        android:id="@+id/edt2Name"
+        android:layout_width="159dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="523dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/txt2Nom"
+        />
+
+    <TextView
+        android:id="@+id/edt2ApePat"
+        android:layout_width="96dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="473dp"
+        android:layout_toLeftOf="@id/edt2ApeMat"
+        android:layout_alignBaseline="@id/txt2Apellidos"
+        />
+
+    <TextView
+        android:id="@+id/edt2ApeMat"
+        android:layout_width="96dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/txt2Apellidos"
+        />
+
+    <TextView
+        android:id="@+id/edt2FecNac"
+        android:layout_width="159dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/txt2FecN"
+        />
+
+    <TextView
+        android:id="@+id/edt2Colegio"
+        android:layout_width="159dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/txt2Cole"
+        />
+
+    <TextView
+        android:id="@+id/edt2Carrera"
+        android:layout_width="159dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@id/txt2Car"
+        />
+
+
+</RelativeLayout>
